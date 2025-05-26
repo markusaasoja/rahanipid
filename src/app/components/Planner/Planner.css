@@ -1,0 +1,322 @@
+
+/* Container */
+.container1 {
+  max-width: 768px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 1.5rem;
+  background-color: #f9fafb;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
+}
+
+/* Header styles */
+.header {
+  margin-bottom: 2rem;
+}
+
+.header h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 0.5rem;
+}
+
+.header p {
+  color: #000000;
+}
+
+/* Progress bar */
+.progress-container1 {
+  margin-bottom: 1.5rem;
+}
+
+.progress-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.progress-step {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.progress-percentage {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.progress-bar-bg {
+  width: 100%;
+  background-color: #e5e7eb;
+  border-radius: 9999px;
+  height: 0.5rem;
+}
+
+.progress-bar {
+  height: 0.5rem;
+  border-radius: 9999px;
+  background-color: #0CC000;
+}
+
+/* Question sections */
+.question-section {
+  margin-bottom: 1.5rem;
+}
+
+.question-title {
+  font-size: 1.125rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.options-container1 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+}
+
+.option input {
+  margin-right: 0.5rem;
+}
+
+/* Form inputs */
+input[type="text"], 
+input[type="number"] {
+  border: 1px solid #d1d5db;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.input-label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+/* Buttons container1 */
+.buttons-container1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  transition: background-color 0.2s;
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+}
+
+.button-back {
+  background-color: #e5e7eb;
+  color: #1f2937;
+}
+
+.button-back:hover {
+  background-color: #d1d5db;
+}
+
+.button-next {
+  background-color: #0ba800;
+  color: white;
+}
+
+.button-next:hover {
+  background-color: rgb(71, 192, 22);
+}
+
+.button-submit {
+  background-color: #059669;
+  color: white;
+}
+
+.button-submit:hover {
+  background-color: #047857;
+}
+
+.button-reset {
+  padding: 0.25rem 0.75rem;
+  font-size: 0.875rem;
+  background-color: #e5e7eb;
+  color: #4b5563;
+  border-radius: 0.25rem;
+}
+
+.button-reset:hover {
+  background-color: #d1d5db;
+}
+
+/* Roadmap display */
+.profile-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.profile-header h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+.profile-summary {
+  background-color: #effff0;
+  border-left: 4px solid #0ba800;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.profile-summary h3 {
+  font-weight: 500;
+  color: #088000;
+}
+
+.profile-list {
+  margin-top: 0.5rem;
+  list-style-type: none;
+  padding: 0;
+  font-size: 1rem;
+  color: #4b5563;
+}
+
+.profile-list li {
+  margin-bottom: 0.25rem;
+}
+
+.profile-label {
+  font-weight: 500;
+}
+
+/* Roadmap items */
+.roadmap-container1 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.roadmap-item {
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+  padding: 1.25rem;
+  background-color: white;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.roadmap-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.roadmap-number {
+  background-color: #2563eb;
+  color: white;
+  border-radius: 50%;
+  width: 1.5rem;
+  height: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0.75rem;
+  font-size: 0.875rem;
+}
+
+.roadmap-title {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.roadmap-description {
+  color: #4b5563;
+  margin-bottom: 1rem;
+}
+
+.roadmap-section {
+  margin-bottom: 1rem;
+}
+
+.roadmap-section-title {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.roadmap-list {
+  list-style-type: disc;
+  padding-left: 1.25rem;
+}
+
+.roadmap-list li {
+  margin-bottom: 0.25rem;
+}
+
+.resource-link {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.resource-link:hover {
+  text-decoration: underline;
+}
+
+/* Next steps section */
+.next-steps {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #f3f4f6;
+  border-radius: 0.5rem;
+  border: 1px solid #d1d5db;
+}
+
+.next-steps h3 {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.next-steps p {
+  color: #4b5563;
+}
+
+.numbered-list {
+  list-style-type: decimal;
+  padding-left: 1.25rem;
+  margin-top: 0.5rem;
+}
+
+.numbered-list li {
+  margin-bottom: 0.25rem;
+}
+
+/* Alert box */
+.alert-warning {
+  background-color: #fefce8;
+  border-left: 4px solid #eab308;
+  padding: 1rem;
+}
+
+.alert-text {
+  color: #854d0e;
+}
+
+/* Utility classes */
+.space-y-1 > * + * {
+  margin-top: 0.25rem;
+}
+
+.space-y-2 > * + * {
+  margin-top: 0.5rem;
+}

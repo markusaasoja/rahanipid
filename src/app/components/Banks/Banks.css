@@ -1,0 +1,145 @@
+.banks-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  text-align: center;
+  margin-top: 70px;
+}
+
+
+.banks-list {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  flex-wrap: wrap;
+}
+
+.bank-card {
+  border-radius: 12px;
+  padding: 20px;
+  width: 400px;
+  text-align: center; /* Center content */
+}
+
+.bank-logo {
+  width: 300px;
+  height: 130px;
+  margin: 0 auto 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bank-logo img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.bank-card h2 {
+  font-size: 1.7rem;
+  margin-bottom: 40px;
+}
+
+.bank-features {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+.feature {
+    margin: 0 auto;
+  margin-bottom: 6px;
+  font-size: 1.3rem;
+  text-align: left;
+  line-height: 1.5;
+}
+
+/* Just color indicates pro/con */
+.pro {
+  color: #36bb3c;
+}
+
+.con {
+  color: #8d8d8d;
+}
+
+.pro .fa-check {
+  margin-right: 0px; /* Adds space between the icon and the text */
+  width: 15px;
+  margin-bottom: -3px;
+}
+
+.con .fa-xmark {
+  margin-right: 6px; /* Adds space between the icon and the text */
+  width: 15px;
+    margin-bottom: -3px;
+
+}
+
+
+.article-header {
+  font-size: 3.5rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  width: 100%;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 600px) {
+  .feature {
+    margin: 0 auto;
+  margin-bottom: 6px;
+  font-size: 1.1rem;
+  text-align: left;
+  line-height: 1.5;
+  padding: 0 10%;
+}
+}
+@media screen and (max-width: 400px) {
+.bank-logo img {
+  max-width: 60%;
+  max-height: 100%;
+  object-fit: contain;
+}
+  .feature {
+    margin: 0 auto;
+  margin-bottom: 6px;
+  font-size: 1rem;
+  text-align: left;
+  line-height: 1.5;
+}
+.bank-card {
+  border-radius: 12px;
+  padding: 0px;
+  width: 300px;
+  text-align: center; /* Center content */ 
+}
+.article-header {
+  font-size: 2.2rem;
+
+}
+}
+@media screen and (max-width: 300px) {
+  .bank-logo img {
+  max-width: 40%;
+  max-height: 100%;
+  object-fit: contain;
+}
+  .feature {
+    margin: 0 auto;
+  margin-bottom: 6px;
+  font-size: 1rem;
+  text-align: left;
+  line-height: 1.5;
+}
+.bank-card {
+  border-radius: 12px;
+  padding: 0px;
+  width: 300px;
+  text-align: center; /* Center content */
+}
+.article-header {
+  font-size: 1.8rem;
+
+}
+}

@@ -1,0 +1,24 @@
+.services{
+    margin-bottom: 300px;
+    margin-top: 250px;
+}
+.services img{
+    float: left;
+    width: 40%;
+    margin-left: 10%;
+    margin-right: 5%;
+    height: 500px;
+}
+.text{
+    padding-right: 10%;
+    text-align: left;
+    align-items: left;
+}
+.text h1{
+    text-align: left;
+    padding-top: 70px;
+    font-size: 45px;
+}
+.text p{
+    font-size: 25px;
+}

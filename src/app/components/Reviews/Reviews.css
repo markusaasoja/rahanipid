@@ -1,0 +1,61 @@
+.testimonials{
+    margin: 80px auto;
+    padding: 0 80px;
+    position: relative;
+    width: 80%;
+}
+.reviews{
+    overflow: hidden;
+}
+.reviews ul{
+    display: flex;
+    width: 200%;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+.reviews ul li{
+    list-style: none;
+    width: 40%;
+    padding: 40px;
+}
+.review{
+    box-shadow: 0 0 20px rgba(0,0,0,0.05);
+    padding: 40px;
+    border-radius: 10px;
+    color: black;
+    line-height: 1.4;
+}
+
+.review p{
+    font-size: 20px;
+}
+.review img{
+    width: 65px;
+    margin-right: 10px;
+}
+.review .stars{
+    width: 20%;
+    margin-bottom: -30px;
+}
+.next-btn, .back-btn{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    padding: 15px;
+    width: 100px;
+    cursor: pointer;
+}
+.back-btn{
+    right: auto;
+    left: 0;
+}
+.user-info{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.user-info span{
+    font-size: 18px;
+}

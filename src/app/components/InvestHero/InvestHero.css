@@ -1,0 +1,92 @@
+.invest-hero {
+    background-color: rgba(1, 97, 7, 0.863);
+    padding: 70px 400px;
+    margin-top: -100px;
+    color: white;
+}
+
+.invest-hero h1 {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.invest-hero p {
+    font-size: 20px;
+}
+
+.invest-checklist {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.invest-checklist li {
+    margin-bottom: 0.75rem;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.check-icon {
+    color: #ffffff;
+    margin-right: 0.6rem;
+    width: 15px;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 1500px) {
+    .invest-hero {
+        padding: 70px 200px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .invest-hero {
+        padding: 70px 100px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .invest-hero {
+        padding: 70px 100px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .invest-hero {
+        padding: 50px 20px;
+    }
+
+    .invest-hero h1 {
+        text-align: center;
+    }
+
+    .invest-hero p {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .invest-hero {
+        padding: 40px 10px;
+    }
+
+    .invest-hero h1 {
+        font-size: 24px;
+    }
+
+    .invest-hero p {
+        font-size: 16px;
+    }
+
+    .invest-checklist li {
+        font-size: 1rem;
+    }
+
+    .check-icon {
+        font-size: 18px;
+    }
+}

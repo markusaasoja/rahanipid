@@ -1,0 +1,117 @@
+/* Värvimuutujad */
+:root {
+  --primary-green: #2ecc71;
+  --secondary-green: #27ae60;
+  --primary-gray: #3a3a3a;
+  --light-gray: #95a5a6;
+  --very-light-gray: #ecf0f1;
+  --white: #ffffff;
+}
+
+/* Põhi jaluse stiilid */
+.footer {
+  background-color: var(--primary-gray);
+  color: var(--white);
+  font-family: Arial, sans-serif;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+  margin-bottom: 2rem;
+  padding-right: 1.5rem;
+}
+
+.footer-section h3 {
+  color: var(--primary-green);
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.footer-section h3::after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 3px;
+  background-color: var(--primary-green);
+  margin-top: 0.5rem;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-section a {
+  color: var(--very-light-gray);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-section a:hover {
+  color: var(--primary-green);
+}
+
+/* Kontakt stiilid */
+.footer-section a {
+  display: inline-block;
+  color: var(--very-light-gray);
+  text-decoration: none;
+  transition: color 0.3s ease;
+  margin-bottom: 0.5rem;
+}
+
+.footer-section a:hover {
+  color: var(--primary-green);
+}
+
+/* Siin olid varem uudiskirja stiilid, mis on nüüd eemaldatud */
+
+/* Jaluse alumine osa */
+.footer-bottom {
+  background-color: rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 0.9rem;
+}
+
+/* Responsiivusus */
+@media screen and (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+  }
+  
+  .footer-section {
+    width: 100%;
+    margin-bottom: 2rem;
+    padding-right: 0;
+  }
+}
+
+/* Keskmised ekraanid */
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+  .footer-container {
+    flex-wrap: wrap;
+  }
+  
+  .footer-section {
+    flex-basis: 45%;
+  }
+}
