@@ -3,8 +3,6 @@
 
 import { useState, useEffect } from 'react';
 import './Compound.css'; // Make sure to create this CSS file
-import ResponsiveNavbar from '../ResponsiveNavbar/ResponsiveNavbar';
-import Footer from '../Footer/Footer';
 
 export default function Compound() {
   const [principal, setPrincipal] = useState(1000);
@@ -169,7 +167,6 @@ export default function Compound() {
         </table>
       </div>
     </div>
-    <Footer/>
     </>
   );
 }

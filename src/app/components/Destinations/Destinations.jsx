@@ -21,7 +21,7 @@ const Destinations = () => {
     <img src='/assets/article4.jpg' alt="Budget planning" />
     <div className='destination-content'>
       <h2>Eelarve koostamise juhend algajale</h2>
-      <p>Mai 20 2025</p>
+      <p>Mai 18 2025</p>
     </div>
   </a>
 
@@ -29,7 +29,7 @@ const Destinations = () => {
     <img src='/assets/article2.jpg' alt="Money saving tips" />
     <div className='destination-content'>
       <h2>10 Nutikat nõuannet, kuidas säästa raha igapäevaelus</h2>
-      <p>Mai 20 2025</p>
+      <p>Mai 16 2025</p>
     </div>
   </a>
 
@@ -37,7 +37,7 @@ const Destinations = () => {
     <img src='/assets/article3.jpg' alt="Work-life balance" />
     <div className='destination-content'>
       <h2>Kuidas leida tasakaal töö ja isikliku elu vahel?</h2>
-      <p>Mai 20 2025</p>
+      <p>Mai 7 2025</p>
     </div>
   </a>
 </div>
