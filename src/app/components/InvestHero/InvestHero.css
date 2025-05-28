@@ -1,6 +1,6 @@
 .invest-hero {
     background-color: rgba(1, 97, 7, 0.863);
-    padding: 70px 400px;
+    padding: 80px 500px;
     margin-top: -100px;
     color: white;
 }
@@ -8,6 +8,7 @@
 .invest-hero h1 {
     text-align: left;
     margin-bottom: 20px;
+    padding-left: 0;
 }
 
 .invest-hero p {
@@ -62,6 +63,7 @@
 
     .invest-hero h1 {
         text-align: center;
+        padding: 0;
     }
 
     .invest-hero p {

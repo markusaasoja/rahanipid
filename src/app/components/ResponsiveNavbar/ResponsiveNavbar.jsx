@@ -74,7 +74,7 @@ export default function ResponsiveNavbar() {
             <Link href="/planeerija" className="navbar-link">Planeerija</Link>
           </li>
           <li className="navbar-item">
-            <Link href="/investeerimine" className="navbar-link">Investeerimine</Link>
+            <Link prefetch={false} href="/investeerimine" className="navbar-link">Investeerimine</Link>
           </li>
 
           {/* Calculators dropdown */}
