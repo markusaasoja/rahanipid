@@ -317,7 +317,7 @@ const FinancialQuestionnaire = () => {
           "Avage eraldi hoiukonto hädaolukorra fondi jaoks",
           "Seadke igakuine automaatne ülekanne sellele kontole"
         ],
-        resources: ["Hädaolukorra fondi planeerimine", "Kuidas säästa efektiivselt"]
+        resources: [<a href="/10-nouannet-kuidas-saasta">10 nutikat nõuannet, kuidas säästa raha igapäevaelus</a>, <a href="/eelarve-koostamine">Kuidas koostada isiklikku eelarvet?</a>]
       });
     }
 
@@ -332,7 +332,7 @@ const FinancialQuestionnaire = () => {
           "Kasutage laviini või lumepalli meetodit võlgade tasumiseks",
           "Kaaluge võimalusel madalama intressiga refinantseerimist"
         ],
-        resources: ["Võlgadest vabanemise strateegia", "Refinantseerimise võimalused"]
+        resources: [<a href="/eelarve-koostamine">Eelarve koostamise juhend algajale</a>, "Refinantseerimise võimalused"]
       });
     }
 
@@ -357,7 +357,7 @@ const FinancialQuestionnaire = () => {
           "Mitmekesistage oma portfelli",
           "Püsige pikaajaliselt oma valitud strateegias"
         ],
-        resources: ["Investeerimise ABC", "Riskiprofiili määramine", "Portfelli mitmekesistamine"]
+        resources: [<a href="/kuidas-alustada-eestis">Kuidas alustada investeerimist Eestis</a>, <a href="/kuidas-tootab-liitintress">Kuidas töötab liitintress ja miks see on investorite salarelv?</a>]
       });
     }
 
@@ -373,7 +373,7 @@ const FinancialQuestionnaire = () => {
           "Arvutage, kui palju kuus säästa tuleb",
           "Kaaluge riiklikke toetusprogramme esmakordsetele koduostjatele"
         ],
-        resources: ["Koduostu planeerimine", "Kodulaenu ABC", "Riiklikud toetusprogrammid"]
+        resources: [<a href="/eelarve-koostamine">Kuidas koostada isiklikku eelarvet?</a>]
       });
     }
 
@@ -389,7 +389,7 @@ const FinancialQuestionnaire = () => {
           "Arvutage vajalik pensionisumma soovitud elustandardi säilitamiseks",
           "Koostage pikaajaline pensionistrateegia"
         ],
-        resources: ["Pensionisambad selgitatud", "Pensioni investeerimisstrateegia", "Pensionikalkulaator"]
+        resources: [<a href="https://www.sotsiaalkindlustusamet.ee/pension-ja-seotud-huvitised/pensioniks-valmistumine/pensionikalkulaator">Pensionikalkulaator</a>, <a href="/10-nouannet-kuidas-saasta">10 nutikat nõuannet, kuidas säästa raha igapäevaelus</a>]
       });
     }
 
@@ -405,7 +405,7 @@ const FinancialQuestionnaire = () => {
           "Arvutage vajalik igakuine säästusumma",
           "Avage eraldi konto selle konkreetse eesmärgi jaoks"
         ],
-        resources: ["Eesmärgipõhine säästmine", "Säästustrateegiad"]
+        resources: [<a href="/10-nouannet-kuidas-saasta">10 nutikat nõuannet, kuidas säästa raha igapäevaelus</a>, <a href="/eelarve-koostamine">Kuidas koostada isiklikku eelarvet?</a>]
       });
     }
 
@@ -421,7 +421,7 @@ const FinancialQuestionnaire = () => {
           "Seadke realistlikud sammud",
           "Jälgige regulaarselt edenemist"
         ],
-        resources: ["Finantseesmärkide seadmine", "Personaalne finantsplaneerimine"]
+        resources: [<a href="/eelarve-koostamine">Kuidas koostada isiklikku eelarvet?</a>, "Personaalne finantsplaneerimine"]
       });
     }
 
