@@ -42,7 +42,7 @@ function InvestArticle() {
         <h2><FontAwesomeIcon icon={faCircle} className='circle'/>Kuld ja muud väärismetallid</h2>
         <p>Kuld on traditsiooniline „turvasadam“, kuhu investeeritakse ebakindlatel aegadel. See ei maksa intressi ega dividende, kuid säilitab sageli oma väärtuse inflatsiooni ja majanduskriiside korral.</p>
         <h2><FontAwesomeIcon icon={faCircle} className='circle'/>Krüptovaluutad</h2>
-        <p>Krüptovaluutad, nagu Bitcoin ja Ethereum, on digitaalsed varad, mille väärtus põhineb turu nõudlusel ja pakkumisel. Need võivad pakkuda kõrget tootlust, kuid on väga kõikuvad ja spekulatiivsed. Krüptovaluutad sobivad ainult neile, kes mõistavad riske ja suudavad võimaliku kaotusega toime tulla.</p>
+        <p>Krüptovaluutad, nagu Bitcoin ja Ethereum, on digitaalsed varad, mille hind põhineb turu nõudlusel ja pakkumisel. Need võivad pakkuda kõrget tootlust, kuid on väga kõikuvad ja spekulatiivsed. Krüptovaluutad sobivad ainult neile, kes mõistavad riske ja suudavad võimaliku kaotusega toime tulla.</p>
     </div>
 
 <div className="section">

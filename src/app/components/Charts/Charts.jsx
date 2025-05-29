@@ -1,17 +1,16 @@
 'use client'
 
-
 import { useEffect, useState } from 'react';
 import {
   LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer
 } from 'recharts';
 import axios from 'axios';
-import './Charts.css'; // Make sure the correct CSS file is imported
+import './Charts.css';
 
 const StockChart = () => {
-  const [appleData, setAppleData] = useState([]);
-  const [microsoftData, setMicrosoftData] = useState([]);
-  const [alphabetData, setAlphabetData] = useState([]);
+  const [asmlData, setAsmlData] = useState([]);
+  const [unityData, setUnityData] = useState([]);
+  const [amznData, setAmznData] = useState([]);
 
   const fetchStockData = async (symbol, setData, cacheKey, cacheTimestampKey) => {
     const cacheDuration = 60 * 60 * 1000; // 1 hour
@@ -56,15 +55,14 @@ const StockChart = () => {
   };
 
   useEffect(() => {
-    // Fetch data for each stock symbol
-    fetchStockData('AAPL', setAppleData, 'aapl_stock_data', 'aapl_stock_data_timestamp');
-    fetchStockData('MSFT', setMicrosoftData, 'msft_stock_data', 'msft_stock_data_timestamp');
-    fetchStockData('GOOGL', setAlphabetData, 'googl_stock_data', 'googl_stock_data_timestamp');
+    fetchStockData('ASML', setAsmlData, 'asml_stock_data', 'asml_stock_data_timestamp');
+    fetchStockData('U', setUnityData, 'unity_stock_data', 'unity_stock_data_timestamp');
+    fetchStockData('AMZN', setAmznData, 'amzn_stock_data', 'amzn_stock_data_timestamp');
 
     const interval = setInterval(() => {
-      fetchStockData('AAPL', setAppleData, 'aapl_stock_data', 'aapl_stock_data_timestamp');
-      fetchStockData('MSFT', setMicrosoftData, 'msft_stock_data', 'msft_stock_data_timestamp');
-      fetchStockData('GOOGL', setAlphabetData, 'googl_stock_data', 'googl_stock_data_timestamp');
+      fetchStockData('ASML', setAsmlData, 'asml_stock_data', 'asml_stock_data_timestamp');
+      fetchStockData('U', setUnityData, 'unity_stock_data', 'unity_stock_data_timestamp');
+      fetchStockData('AMZN', setAmznData, 'amzn_stock_data', 'amzn_stock_data_timestamp');
     }, 60 * 60 * 1000); // Refresh every hour
 
     return () => clearInterval(interval);
@@ -72,66 +70,47 @@ const StockChart = () => {
 
   return (
     <>
-    <div className='chart-text'>
-        <h1 className='article-header'>Tõusvad aktsiad täna
-        </h1>
+      <div className='chart-text'>
+        <h1 className='article-header'>Tõusvad aktsiad täna</h1>
         <p>Siin on meie hinnangul populaarsed ja tõusvad aktsiad! Pange tähele, et see valik ei määra aktsiate tuleviku suunda</p>
-    </div>
-    <div className="chart-container">
-      <div className="chart-item">
-        <h3>Apple (AAPL)</h3>
-        <ResponsiveContainer width="100%" height={200}>
-          <LineChart data={appleData}>
-            <XAxis dataKey="date" hide />
-            <YAxis domain={['auto', 'auto']} />
-            <Tooltip />
-            <Line
-              type="monotone"
-              dataKey="close"
-              stroke="#00a800"
-              strokeWidth={3}
-              dot={false}
-            />
-          </LineChart>
-        </ResponsiveContainer>
       </div>
+      <div className="chart-container">
+        <div className="chart-item">
+          <h3>ASML (ASML)</h3>
+          <ResponsiveContainer width="100%" height={200}>
+            <LineChart data={asmlData}>
+              <XAxis dataKey="date" hide />
+              <YAxis domain={['auto', 'auto']} />
+              <Tooltip />
+              <Line type="monotone" dataKey="close" stroke="#00a800" strokeWidth={3} dot={false} />
+            </LineChart>
+          </ResponsiveContainer>
+        </div>
 
-      <div className="chart-item">
-        <h3>Microsoft (MSFT)</h3>
-        <ResponsiveContainer width="100%" height={200}>
-          <LineChart data={microsoftData}>
-            <XAxis dataKey="date" hide />
-            <YAxis domain={['auto', 'auto']} />
-            <Tooltip />
-            <Line
-              type="monotone"
-              dataKey="close"
-              stroke="#00a800"
-              strokeWidth={3}
-              dot={false}
-            />
-          </LineChart>
-        </ResponsiveContainer>
-      </div>
+        <div className="chart-item">
+          <h3>Unity Software (U)</h3>
+          <ResponsiveContainer width="100%" height={200}>
+            <LineChart data={unityData}>
+              <XAxis dataKey="date" hide />
+              <YAxis domain={['auto', 'auto']} />
+              <Tooltip />
+              <Line type="monotone" dataKey="close" stroke="#00a800" strokeWidth={3} dot={false} />
+            </LineChart>
+          </ResponsiveContainer>
+        </div>
 
-      <div className="chart-item">
-        <h3>Alphabet (GOOGL)</h3>
-        <ResponsiveContainer width="100%" height={200}>
-          <LineChart data={alphabetData}>
-            <XAxis dataKey="date" hide />
-            <YAxis domain={['auto', 'auto']} />
-            <Tooltip />
-            <Line
-              type="monotone"
-              dataKey="close"
-              stroke="#00a800"
-              strokeWidth={3}
-              dot={false}
-            />
-          </LineChart>
-        </ResponsiveContainer>
+        <div className="chart-item">
+          <h3>Amazon (AMZN)</h3>
+          <ResponsiveContainer width="100%" height={200}>
+            <LineChart data={amznData}>
+              <XAxis dataKey="date" hide />
+              <YAxis domain={['auto', 'auto']} />
+              <Tooltip />
+              <Line type="monotone" dataKey="close" stroke="#00a800" strokeWidth={3} dot={false} />
+            </LineChart>
+          </ResponsiveContainer>
+        </div>
       </div>
-    </div>
     </>
   );
 };
