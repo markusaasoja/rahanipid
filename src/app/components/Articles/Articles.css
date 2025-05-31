@@ -99,7 +99,7 @@ h4 {
   width: 100%;
   margin: 0 auto;
   margin-top: 50px;
-  padding-bottom: 70px;
+  padding-bottom: 50px;
   border-bottom: 1px solid #ccc;
 }
 
@@ -159,6 +159,7 @@ h4 {
 .app h3 {
   font-size: 1.8rem;
   margin-bottom: 10px;
+  padding-top: 20px;
   display: flex;
   align-items: center;
 }

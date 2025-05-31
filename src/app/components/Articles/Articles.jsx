@@ -5,14 +5,24 @@ import "../Destinations/Destinations.css";
 // Article data with "featured" flag
 const articles = [
     {
+    date: "Mai 31, 2025",
+    title: "Robo-nõustajad: kas tasub usaldada automatiseeritud investeerimist?",
+    description:
+      "Kindlustuspaketi valimine võib tunduda keeruline, kuna turul on palju erinevaid võimalusi ja tingimusi. Oluline on mõista oma vajadusi ja riske, et leida just sulle sobiv kaitse, mis annab meelerahu igapäevaelus.",
+    image: "/assets/robots.jpg",
+    link: "/robo-noustajad-eestis",
+    featured: false,
+  },
+  {
     date: "Mai 28, 2025",
     title: "Kuidas valida sobiv kindlustuspakett?",
     description:
-      "Paljud inimesed soovivad investeerida, kuid ei tea, kust alustada. Esialgu võib investeerimine tunduda keeruline ja hirmutav, eriti kui puuduvad varasemad teadmised rahandusest või kogemused väärtpaberitega. Tegelikult on Eestis investeerimise alustamine muutunud lihtsamaks kui kunagi varem.",
+      "Kindlustuspaketi valimine võib tunduda keeruline, kuna turul on palju erinevaid võimalusi ja tingimusi. Oluline on mõista oma vajadusi ja riske, et leida just sulle sobiv kaitse, mis annab meelerahu igapäevaelus.",
     image: "/assets/insurance.jpg",
     link: "/kuidas-valida-kindlustuspakett",
     featured: false,
   },
+
   {
     date: "Mai 26, 2025",
     title: "Kuidas töötab liitintress ja miks see on investorite salarelv?",
