@@ -11,7 +11,7 @@ function Sectors() {
         <img src="/assets/sectors.jpg" alt="Article" className='article-hero' />
         <p className="date">2. Juuni 2025</p>
 
-        <h1 className='article-header'>Sektorite analüüs: Kus peituvad parimad investeerimisvõimalused?</h1>
+        <h1 className='article-header'>Sektorite analüüs: Kus peituvad parimad võimalused?</h1>
 
         <div className='article-section'>
         <p>

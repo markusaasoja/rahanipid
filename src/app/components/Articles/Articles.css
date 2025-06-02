@@ -382,9 +382,9 @@ h4 {
 }
 }
 /* Additional Mobile Responsiveness */
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 450px) {
     .side-article img {
-    width: 120px;
+    width: 130px;
     height: 100px;
     object-fit: cover;
     border-radius: 6px;
@@ -428,12 +428,12 @@ h4 {
   .side-article .article-text h4 {
     font-size: 0.8rem;
     margin: 0 0 0.5rem 0;
+    margin-top: 20px;
   }
 
 .article-text .date {
   color: gray;
   font-size: 18px;
-  margin-top: 10px;
 }
 h1{
   font-size: 30px;

@@ -15,7 +15,7 @@ const articles = [
     },
     {
     date: "Juuni 2, 2025",
-    title: "Sektorite analüüs: Kus peituvad parimad investeerimisvõimalused?",
+    title: "Sektorite analüüs: Kus peituvad parimad võimalused?",
     description:
       "Kindlustuspaketi valimine võib tunduda keeruline, kuna turul on palju erinevaid võimalusi ja tingimusi. Oluline on mõista oma vajadusi ja riske, et leida just sulle sobiv kaitse, mis annab meelerahu igapäevaelus.",
     image: "/assets/sectors.jpg",
