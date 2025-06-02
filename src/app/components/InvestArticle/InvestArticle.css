@@ -73,19 +73,6 @@
     font-size: 1.25rem;
 }
 
-.main-article {
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.main-article img {
-    width: 100%;
-    max-height: 500px;
-    object-fit: cover;
-    margin-top: 30px;
-    border-radius: 10px;
-}
 
 .app-list, .strategy-list {
     margin-top: 20px;
