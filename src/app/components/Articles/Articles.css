@@ -168,6 +168,12 @@ h4 {
   color: green;
   margin-right: 10px;
 }
+.icon2{
+    width: 35px;
+    margin-bottom: -5px;
+    margin-right: 6px;
+    color: green;
+}
 
 .app p {
   font-size: 1.3rem;
@@ -179,6 +185,22 @@ h4 {
   margin-bottom: 20px;
 }
 
+.article-header {
+    margin-top: 40px;
+    font-size: 2.8rem;
+}
+.article-section ul{
+  margin-top: -25px;
+}
+.article-section li{
+  font-size: 18px;
+  margin-left: 30px;
+}
+
+::marker {
+    color: green;
+    font-size: 1.5rem;
+}
 /* Responsive Adjustments */
 @media screen and (max-width: 1024px) {
   .article-content {
@@ -230,6 +252,12 @@ h4 {
 }
 
 @media screen and (max-width: 768px) {
+  .icon2{
+    width: 30px;
+    margin-bottom: -7px;
+    margin-right: 6px;
+    color: green;
+}
   .article-content {
     width: 100%;
     padding: 0 5%;

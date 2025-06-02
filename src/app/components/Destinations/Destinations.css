@@ -6,7 +6,9 @@ h1 {
     padding-left: 10%;
     padding-right: 10%;
 }
-
+.article-header {
+    margin-top: 100px;
+}
 .destinations {
     display: flex;
     justify-content: space-between; /* Space items evenly */

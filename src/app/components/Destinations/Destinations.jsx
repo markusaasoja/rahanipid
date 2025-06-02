@@ -17,19 +17,19 @@ const Destinations = () => {
         <img src='/assets/article.jpg' alt="Investment article" />
       </a>
     <div className='destinations'>
-  <a href="/eelarve-koostamine" className='destination'>
-    <img src='/assets/article4.jpg' alt="Budget planning" />
+  <a href="/kuidas-hinnata-aktsiaid" className='destination'>
+    <img src='/assets/vaartus.jpg' alt="Budget planning" />
     <div className='destination-content'>
-      <h2>Eelarve koostamise juhend algajale</h2>
-      <p>Mai 18 2025</p>
+      <h2>Kuidas hinnata aktsiate väärtust?</h2>
+      <p>Juuni 2 2025</p>
     </div>
   </a>
 
-  <a href="/10-nouannet-kuidas-saasta" className='destination'>
-    <img src='/assets/article2.jpg' alt="Money saving tips" />
+  <a href="/sektorite-analuus" className='destination'>
+    <img src='/assets/sectors.jpg' alt="Money saving tips" />
     <div className='destination-content'>
-      <h2>10 Nutikat nõuannet, kuidas säästa raha igapäevaelus</h2>
-      <p>Mai 16 2025</p>
+      <h2>Sektorite analüüs: Kus peituvad parimad investeerimisvõimalused?</h2>
+      <p>Juuni 2 2025</p>
     </div>
   </a>
 

@@ -5,6 +5,24 @@ import "../Destinations/Destinations.css";
 // Article data with "featured" flag
 const articles = [
     {
+    date: "Juuni 2, 2025",
+    title: "Kuidas hinnata aktsiate väärtust?",
+    description:
+  "Aktsiate õige väärtuse hindamine on eduka investeerimise alus. Selles artiklis tutvustame peamisi meetodeid – alates fundamentaalanalüüsist ja DCF-ist kuni turusentimendi ja kvalitatiivsete teguriteni – ning jagame ekspertide soovitusi parimate praktikate kohta.",
+    image: "/assets/vaartus.jpg",
+    link: "/kuidas-hinnata-aktsiaid",
+    featured: true,
+    },
+    {
+    date: "Juuni 2, 2025",
+    title: "Sektorite analüüs: Kus peituvad parimad investeerimisvõimalused?",
+    description:
+      "Kindlustuspaketi valimine võib tunduda keeruline, kuna turul on palju erinevaid võimalusi ja tingimusi. Oluline on mõista oma vajadusi ja riske, et leida just sulle sobiv kaitse, mis annab meelerahu igapäevaelus.",
+    image: "/assets/sectors.jpg",
+    link: "/sektorite-analuus",
+    featured: true,
+  },
+    {
     date: "Mai 31, 2025",
     title: "Robo-nõustajad: kas tasub usaldada automatiseeritud investeerimist?",
     description:
@@ -54,14 +72,14 @@ const articles = [
     title: "10 Nutikat nõuannet, kuidas säästa raha igapäevaelus",
     image: "/assets/article2.jpg",
     link: "/10-nouannet-kuidas-saasta",
-    featured: true,
+    featured: false,
   },
   {
     date: "Mai 7, 2025",
     title: "Kuidas leida tasakaal töö ja isikliku elu vahel?",
     image: "/assets/article3.jpg",
     link: "/kuidas-leida-tasakaal",
-    featured: true,
+    featured: false,
   },
 ];
 
